@@ -1,0 +1,851 @@
+@prefix : <http://www.semanticweb.org/monic/ontologies/2022/3/Bridgerton#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/monic/ontologies/2022/3/Bridgerton#> .
+
+<http://www.semanticweb.org/monic/ontologies/2022/3/Bridgerton> rdf:type owl:Ontology ;
+                                                                 rdfs:comment "Bridgerton" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> rdf:type owl:ObjectProperty .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> rdf:type owl:ObjectProperty .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> rdf:type owl:ObjectProperty ;
+                                                                                 rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> rdf:type owl:ObjectProperty ;
+                                                                                  rdfs:domain <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ,
+                                                                                              <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#family
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#family> rdf:type owl:ObjectProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> rdf:type owl:ObjectProperty ,
+                                                                                         owl:TransitiveProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> rdf:type owl:ObjectProperty ;
+                                                                             owl:equivalentProperty [ owl:inverseOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of>
+                                                                                                    ] ;
+                                                                             rdfs:domain <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ,
+                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> rdf:type owl:ObjectProperty ;
+                                                                                      rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> rdf:type owl:ObjectProperty ,
+                                                                                               owl:AsymmetricProperty ;
+                                                                                      rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by> rdf:type owl:ObjectProperty ,
+                                                                                            owl:AsymmetricProperty ;
+                                                                                   rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> rdf:type owl:ObjectProperty ,
+                                                                                          owl:FunctionalProperty ;
+                                                                                 rdfs:domain <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ,
+                                                                                             <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> ;
+                                                                                 rdfs:comment "Descriu quins episodis formen part d'una temporada concreta" .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> ,
+                                                                                           <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of> rdf:type owl:ObjectProperty ,
+                                                                                            owl:AsymmetricProperty ;
+                                                                                   rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer> ;
+                                                                                   rdfs:range <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> ;
+                                                                                   rdfs:comment "Propietat que descriu qui va escriure la sèrie" .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdfs:label "cast" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:domain <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ;
+                                                                          rdfs:range xsd:string ;
+                                                                          rdfs:comment "Títol de l'episodi" .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#death_year
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#death_year> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:range [ rdf:type rdfs:Datatype ;
+                                                                                                      owl:onDatatype xsd:short ;
+                                                                                                      owl:withRestrictions ( [ xsd:minInclusive "2020"^^xsd:short
+                                                                                                                             ]
+                                                                                                                             [ xsd:maxInclusive "2023"^^xsd:short
+                                                                                                                             ]
+                                                                                                                           )
+                                                                                                    ] ;
+                                                                                         rdfs:comment "Any de producció d'una temporada" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#brother
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#brother> rdf:type owl:Class ;
+                                                                            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                  owl:onProperty <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> ;
+                                                                                                  owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character>
+                                                                                                ] ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> rdf:type owl:Class .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#father
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#father> rdf:type owl:Class ;
+                                                                           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> ;
+                                                                                                 owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character>
+                                                                                               ] ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#mother
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#mother> rdf:type owl:Class ;
+                                                                           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> ;
+                                                                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                 owl:onClass <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character>
+                                                                                               ] ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#sister
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#sister> rdf:type owl:Class ;
+                                                                           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> ;
+                                                                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                 owl:onClass <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character>
+                                                                                               ] ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Danbury
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Danbury> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> rdf:type owl:Class ;
+                                                                                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> ;
+                                                                                                       owl:someValuesFrom <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode>
+                                                                                                     ] ;
+                                                                                 rdfs:comment """Temporades de la sèrie
+Permet respondre: 
+Quins personatges apareixen a la temporada x
+Quins personatges es casen a la temporada x""" ;
+                                                                                 rdfs:label "Bridgerton seasons" .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> rdf:type owl:Class ;
+                                                                               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> ;
+                                                                                                     owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character>
+                                                                                                   ] ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#allergic_reaction
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#allergic_reaction> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> rdf:type owl:Class ;
+                                                                                   rdfs:comment "Caracterització dels personatges de la sèrie" .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> ;
+                                                                              rdfs:comment "Personatge mort a la sèrie" .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> rdf:type owl:Class ;
+                                                                                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> ;
+                                                                                                        owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons>
+                                                                                                      ] ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <https://dbpedia.org/ontology/Animal> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover> rdf:type owl:Class ;
+                                                                                   owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes> ;
+                                                                                                         owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog>
+                                                                                                       ] ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide> rdf:type owl:Class ;
+                                                                                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by> ;
+                                                                                                        owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person>
+                                                                                                      ] ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover> rdf:type owl:Class ;
+                                                                                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                           owl:onProperty <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes> ;
+                                                                                                           owl:someValuesFrom <https://dbpedia.org/ontology/Animal#horse>
+                                                                                                         ] ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#natural
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#natural> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor> rdf:type owl:Class ;
+                                                                              owl:equivalentClass [ rdf:type owl:Class ;
+                                                                                                    owl:complementOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich>
+                                                                                                  ] ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> ;
+                                                                              owl:disjointWith <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#queen
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#queen> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich> rdf:type owl:Class ;
+                                                                              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                                    owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                                  ] ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer> rdf:type owl:Class ;
+                                                                                owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of> ;
+                                                                                                      owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons>
+                                                                                                    ] ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> .
+
+
+###  https://dbpedia.org/ontology/Animal
+<https://dbpedia.org/ontology/Animal> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> ;
+                                      rdfs:comment "Animals que apareixen a la sèrie" .
+
+
+###  https://dbpedia.org/ontology/Animal#horse
+<https://dbpedia.org/ontology/Animal#horse> rdf:type owl:Class ;
+                                            rdfs:subClassOf <https://dbpedia.org/ontology/Animal> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alex_Pillai
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alex_Pillai> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alrick_Riley
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alrick_Riley> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> rdf:type owl:NamedIndividual ,
+                                                                                                 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> ,
+                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                                   owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                                 ] ;
+                                                                                        <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                       <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                        <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> ,
+                                                                                                                                                                               <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> ,
+                                                                                                                                                                               <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ;
+                                                                                        <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1786 .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Cheryl_Dunye
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Cheryl_Dunye> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> rdf:type owl:NamedIndividual ,
+                                                                                              <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> ,
+                                                                                              <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> ,
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                                owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                              ] ;
+                                                                                     <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                    <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                     <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson> ;
+                                                                                     <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ;
+                                                                                     <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1791 .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> rdf:type owl:NamedIndividual ,
+                                                                                               <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> ,
+                                                                                               <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke> ,
+                                                                                               <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ,
+                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                                 owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                               ] ;
+                                                                                      <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                     <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                      <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> ,
+                                                                                                                                                                       <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ,
+                                                                                                                                                                       <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> ;
+                                                                                      <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ;
+                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> ;
+                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1792 .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Duke_Hastings
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Duke_Hastings> rdf:type owl:NamedIndividual ,
+                                                                                           <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset> ,
+                                                                                           <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#natural> ,
+                                                                                           [ rdf:type owl:Restriction ;
+                                                                                             owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                             owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                           ] ;
+                                                                                  <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> rdf:type owl:NamedIndividual ,
+                                                                                               <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> ,
+                                                                                               <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#allergic_reaction> ,
+                                                                                               <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> ,
+                                                                                               <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount> ,
+                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                                 owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                               ] ;
+                                                                                      <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ;
+                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> ;
+                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#bee> ;
+                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1764 ;
+                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#death_year> 1803 .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma> rdf:type owl:NamedIndividual ,
+                                                                                           <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield> ;
+                                                                                  <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                  <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1> rdf:type owl:NamedIndividual ,
+                                                                                           <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ;
+                                                                                  <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> "Diamond of the First Water" ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> "2020"^^xsd:short ;
+                                                                                  rdfs:comment "Episodi 1 de la Temporada 1" .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2> rdf:type owl:NamedIndividual ,
+                                                                                           <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ;
+                                                                                  <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> "Shock and Delight" ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> "2020"^^xsd:short .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1> rdf:type owl:NamedIndividual ,
+                                                                                           <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                  <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> "Capital R Rake" ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> "2021"^^xsd:short .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E7
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E7> rdf:type owl:NamedIndividual ,
+                                                                                           <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                  <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> "Harmony" ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> "2021"^^xsd:short .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> rdf:type owl:NamedIndividual ,
+                                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> ,
+                                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ,
+                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                                    owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                                  ] ;
+                                                                                         <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                        <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                         <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> ,
+                                                                                                                                                                          <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ;
+                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1797 .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> rdf:type owl:NamedIndividual ,
+                                                                                                <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> ,
+                                                                                                <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> ,
+                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                  owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                                  owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                                ] ;
+                                                                                       <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                      <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                       <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ;
+                                                                                       <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1801 .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> rdf:type owl:NamedIndividual ,
+                                                                                                 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> ,
+                                                                                                 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ,
+                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                                   owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                                 ] ;
+                                                                                        <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ;
+                                                                                        <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1803 .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julia_Quinn
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julia_Quinn> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julie_Anne_Robinson
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julie_Anne_Robinson> rdf:type owl:NamedIndividual ,
+                                                                                                 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> ;
+                                                                                        <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lady_Danbury
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lady_Danbury> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Danbury> ,
+                                                                                          <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ,
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                            owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                          ] ;
+                                                                                 <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lord_Featherington
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lord_Featherington> rdf:type owl:NamedIndividual ,
+                                                                                                <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington> ,
+                                                                                                <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide> ,
+                                                                                                <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> ;
+                                                                                       <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ;
+                                                                                       <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson> rdf:type owl:NamedIndividual ,
+                                                                                             <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ,
+                                                                                             <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor> ;
+                                                                                    <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                   <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington> rdf:type owl:NamedIndividual ,
+                                                                                                    <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington> ,
+                                                                                                    <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ;
+                                                                                           <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                          <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                           <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte> rdf:type owl:NamedIndividual ,
+                                                                                             <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> ,
+                                                                                             <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ,
+                                                                                             <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#queen> ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                               owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                             ] ;
+                                                                                    <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                   <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                    rdfs:label "Queen Charlotte" .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> rdf:type owl:NamedIndividual ,
+                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> ;
+                                                                             rdfs:comment "Temporada 1 de la sèrie" .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> rdf:type owl:NamedIndividual ,
+                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheree_Folkson
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheree_Folkson> rdf:type owl:NamedIndividual ,
+                                                                                            <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> rdf:type owl:NamedIndividual ,
+                                                                                   <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset> ,
+                                                                                   <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke> ,
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                     owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                   ] ;
+                                                                          <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ;
+                                                                          <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ;
+                                                                          <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simone_Ashley
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simone_Ashley> rdf:type owl:NamedIndividual ,
+                                                                                           <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> ;
+                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1995 .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tom_Verica
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tom_Verica> rdf:type owl:NamedIndividual ,
+                                                                                        <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> ;
+                                                                               <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tricia_Brock
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tricia_Brock> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> ;
+                                                                                 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> rdf:type owl:NamedIndividual ,
+                                                                                                     <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> ,
+                                                                                                     <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover> ,
+                                                                                                     <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> ,
+                                                                                                     <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount> ,
+                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                                       owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                                     ] ;
+                                                                                            <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                           <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                            <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                            <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> ;
+                                                                                            <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> ,
+                                                                                                                                                                                   <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> ,
+                                                                                                                                                                                   <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> ,
+                                                                                                                                                                                   <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> ,
+                                                                                                                                                                                   <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> ,
+                                                                                                                                                                                   <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> ,
+                                                                                                                                                                                   <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> ;
+                                                                                            <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1784 ;
+                                                                                            rdfs:label "Anthony Bridgerton" .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Austin
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Austin> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog> ,
+                                                                                         <https://dbpedia.org/ontology/Animal> ;
+                                                                                <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> rdf:type owl:NamedIndividual ,
+                                                                                                    <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> ,
+                                                                                                    <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                                      owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                                    ] ;
+                                                                                           <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                                          <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                           <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> ,
+                                                                                                                                                                            <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> ,
+                                                                                                                                                                            <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> ,
+                                                                                                                                                                            <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> ,
+                                                                                                                                                                            <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> ,
+                                                                                                                                                                            <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> ,
+                                                                                                                                                                            <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ;
+                                                                                           <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1796 ;
+                                                                                           rdfs:label "Eloise" .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Jonathan_Bailey
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Jonathan_Bailey> rdf:type owl:NamedIndividual ,
+                                                                                                  <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> ;
+                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ;
+                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> 1988 .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> rdf:type owl:NamedIndividual ,
+                                                                                                   <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield> ,
+                                                                                                   <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover> ,
+                                                                                                   <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ,
+                                                                                                   <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover> ;
+                                                                                          <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma> ;
+                                                                                          <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                          <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ;
+                                                                                          rdfs:label "Kate" .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> ,
+                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ,
+                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount> ,
+                                                                                         [ rdf:type owl:Restriction ;
+                                                                                           owl:onProperty <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> ;
+                                                                                           owl:someValuesFrom <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money>
+                                                                                         ] ;
+                                                                                <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> ,
+                                                                                                                                                               <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> ;
+                                                                                <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> ;
+                                                                                <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> ,
+                                                                                                                                                                      <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> ,
+                                                                                                                                                                      <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> ,
+                                                                                                                                                                      <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> ,
+                                                                                                                                                                      <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> ,
+                                                                                                                                                                      <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> ,
+                                                                                                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> ,
+                                                                                                                                                                      <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#bee
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#bee> rdf:type owl:NamedIndividual ,
+                                                                                      <https://dbpedia.org/ontology/Animal> .
+
+
+###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse> rdf:type owl:NamedIndividual ,
+                                                                                        <https://dbpedia.org/ontology/Animal> .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+owl:Thing rdfs:comment "Ontologia creada per a descriure diferents elements de la sèrie Bridgerton" ;
+          rdfs:isDefinedBy "Mònica Mañá" ;
+          rdfs:label "Bridgerton" .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#a> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
