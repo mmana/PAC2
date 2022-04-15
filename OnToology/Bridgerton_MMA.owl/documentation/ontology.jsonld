@@ -1,0 +1,1429 @@
+[ {
+  "@id" : "_:genid1",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://dbpedia.org/ontology/Animal#horse"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#short"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid6"
+    }, {
+      "@id" : "_:genid4"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid36"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid38"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid41"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid43"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#short",
+    "@value" : "2023"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid46"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid48"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#short",
+    "@value" : "2020"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alex_Pillai",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alrick_Riley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1786"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+  }, {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Cheryl_Dunye",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1791"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male"
+  }, {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton"
+  } ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1792"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  }, {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Duke_Hastings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#natural"
+  }, {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1764"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#death_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1803"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#bee"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#allergic_reaction"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount"
+  }, {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title" : [ {
+    "@value" : "Diamond of the First Water"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#short",
+    "@value" : "2020"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Episodi 1 de la Temporada 1"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title" : [ {
+    "@value" : "Shock and Delight"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#short",
+    "@value" : "2020"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title" : [ {
+    "@value" : "Capital R Rake"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#short",
+    "@value" : "2021"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title" : [ {
+    "@value" : "Harmony"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#short",
+    "@value" : "2021"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1797"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  }, {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1801"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male"
+  }, {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1803"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  }, {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julia_Quinn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julie_Anne_Robinson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lady_Danbury",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Danbury"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  }, {
+    "@id" : "_:genid28"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lord_Featherington",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#queen"
+  }, {
+    "@id" : "_:genid29"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Queen Charlotte"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Temporada 1 de la sèrie"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheree_Folkson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  } ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke"
+  }, {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simone_Ashley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1995"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tom_Verica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tricia_Brock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#brother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#father",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#mother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#sister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Títol de l'episodi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Bridgerton"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1784"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount"
+  }, {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Anthony Bridgerton"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Austin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog"
+  }, {
+    "@id" : "https://dbpedia.org/ontology/Animal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Danbury",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1796"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  }, {
+    "@id" : "_:genid32"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Eloise"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Jonathan_Bailey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1988"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma"
+  } ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Kate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Temporades de la sèrie\nPermet respondre: \nQuins personatges apareixen a la temporada x\nQuins personatges es casen a la temporada x"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bridgerton seasons"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton"
+  } ],
+  "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton"
+  }, {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount"
+  }, {
+    "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#allergic_reaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#bee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://dbpedia.org/ontology/Animal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Caracterització dels personatges de la sèrie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Personatge mort a la sèrie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#death_year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://dbpedia.org/ontology/Animal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#family",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://dbpedia.org/ontology/Animal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#natural",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Descriu quins episodis formen part d'una temporada concreta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor"
+  }, {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Any de producció d'una temporada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#queen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Propietat que descriu qui va escriure la sèrie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ontologia creada per a descriure diferents elements de la sèrie Bridgerton"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Mònica Mañá"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bridgerton"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "cast"
+  } ]
+}, {
+  "@id" : "https://dbpedia.org/ontology/Animal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Animals que apareixen a la sèrie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+  } ]
+}, {
+  "@id" : "https://dbpedia.org/ontology/Animal#horse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://dbpedia.org/ontology/Animal"
+  } ]
+}, {
+  "@id" : "urn:swrl:var#a",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]
