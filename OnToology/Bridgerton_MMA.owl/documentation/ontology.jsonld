@@ -1170,8 +1170,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
-  }, {
-    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director",
@@ -1226,8 +1224,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
-  }, {
-    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
     "@id" : "_:genid1"
@@ -1311,8 +1307,6 @@
     "@value" : "Descriu quins episodis formen part d'una temporada concreta"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
-  }, {
     "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"
   } ]
 }, {
@@ -1322,8 +1316,6 @@
   "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor"
-  }, {
     "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
   } ]
 }, {

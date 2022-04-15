@@ -40,8 +40,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> rdf:type owl:ObjectProperty ;
-                                                                                  rdfs:domain <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ,
-                                                                                              <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+                                                                                  rdfs:domain <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
 
 
 ###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#family
@@ -59,8 +58,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> rdf:type owl:ObjectProperty ;
                                                                              owl:equivalentProperty [ owl:inverseOf <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of>
                                                                                                     ] ;
-                                                                             rdfs:domain <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ,
-                                                                                         <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
+                                                                             rdfs:domain <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
 
 
 ###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with
@@ -93,15 +91,13 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 ###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> rdf:type owl:ObjectProperty ,
                                                                                           owl:FunctionalProperty ;
-                                                                                 rdfs:domain <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> ,
-                                                                                             <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> ;
+                                                                                 rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> ;
                                                                                  rdfs:comment "Descriu quins episodis formen part d'una temporada concreta" .
 
 
 ###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> rdf:type owl:ObjectProperty ;
-                                                                               rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> ,
-                                                                                           <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+                                                                               rdfs:domain <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
 
 
 ###  http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of
