@@ -74,7 +74,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed">
         <rdfs:domain rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"/>
     </owl:ObjectProperty>
     
 
@@ -105,7 +104,6 @@
             </rdf:Description>
         </owl:equivalentProperty>
         <rdfs:domain rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"/>
     </owl:ObjectProperty>
     
 
@@ -156,7 +154,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"/>
         <rdfs:comment>Descriu quins episodis formen part d&apos;una temporada concreta</rdfs:comment>
     </owl:ObjectProperty>
@@ -166,7 +163,6 @@
     <!-- http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"/>
     </owl:ObjectProperty>
     
