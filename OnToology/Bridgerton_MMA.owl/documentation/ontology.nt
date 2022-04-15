@@ -1,0 +1,774 @@
+<http://www.semanticweb.org/monic/ontologies/2022/3/Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/Bridgerton> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridgerton" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#family
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#family> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> <http://www.w3.org/2002/07/owl#equivalentProperty> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> <http://www.w3.org/2000/01/rdf-schema#domain> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Descriu quins episodis formen part d'una temporada concreta" .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Propietat que descriu qui va escriure la sèrie" .
+# 
+# http://www.w3.org/2002/07/owl#topObjectProperty
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/2000/01/rdf-schema#label> "cast" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> <http://www.w3.org/2000/01/rdf-schema#comment> "Títol de l'episodi" .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#death_year
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#death_year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> <http://www.w3.org/2000/01/rdf-schema#range> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid4 .
+_:genid4 <http://www.w3.org/2001/XMLSchema#maxInclusive> "2023"^^<http://www.w3.org/2001/XMLSchema#short> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid6 .
+_:genid6 <http://www.w3.org/2001/XMLSchema#minInclusive> "2020"^^<http://www.w3.org/2001/XMLSchema#short> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#short> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> <http://www.w3.org/2000/01/rdf-schema#comment> "Any de producció d'una temporada" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#brother
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#brother> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#brother> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#brother> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#father
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#father> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#father> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#father> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#mother
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#mother> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#mother> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+_:genid9 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#mother> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#sister
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#sister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#sister> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+_:genid10 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#sister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Danbury
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Danbury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Danbury> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporades de la sèrie\nPermet respondre: \nQuins personatges apareixen a la temporada x\nQuins personatges es casen a la temporada x" .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> <http://www.w3.org/2000/01/rdf-schema#label> "Bridgerton seasons" .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#allergic_reaction
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#allergic_reaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#allergic_reaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> <http://www.w3.org/2000/01/rdf-schema#comment> "Caracterització dels personatges de la sèrie" .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead> <http://www.w3.org/2000/01/rdf-schema#comment> "Personatge mort a la sèrie" .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://dbpedia.org/ontology/Animal> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://dbpedia.org/ontology/Animal#horse> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#natural
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#natural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#natural> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#queen
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#queen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#queen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> .
+# 
+# https://dbpedia.org/ontology/Animal
+<https://dbpedia.org/ontology/Animal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://dbpedia.org/ontology/Animal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
+<https://dbpedia.org/ontology/Animal> <http://www.w3.org/2000/01/rdf-schema#comment> "Animals que apareixen a la sèrie" .
+# 
+# https://dbpedia.org/ontology/Animal#horse
+<https://dbpedia.org/ontology/Animal#horse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://dbpedia.org/ontology/Animal#horse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://dbpedia.org/ontology/Animal> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alex_Pillai
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alex_Pillai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alex_Pillai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alrick_Riley
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alrick_Riley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Alrick_Riley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1786"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Cheryl_Dunye
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Cheryl_Dunye> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Cheryl_Dunye> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1791"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1792"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Duke_Hastings
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Duke_Hastings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Duke_Hastings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Duke_Hastings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#natural> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Duke_Hastings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Duke_Hastings> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Duke_Hastings> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#allergic_reaction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#bee> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1764"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#death_year> "1803"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> "Diamond of the First Water" .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> "2020"^^<http://www.w3.org/2001/XMLSchema#short> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1> <http://www.w3.org/2000/01/rdf-schema#comment> "Episodi 1 de la Temporada 1" .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> "Shock and Delight" .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> "2020"^^<http://www.w3.org/2001/XMLSchema#short> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> "Capital R Rake" .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> "2021"^^<http://www.w3.org/2001/XMLSchema#short> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E7
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E7> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E7> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title> "Harmony" .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E7> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year> "2021"^^<http://www.w3.org/2001/XMLSchema#short> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1797"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1801"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1803"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julia_Quinn
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julia_Quinn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julia_Quinn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julie_Anne_Robinson
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julie_Anne_Robinson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julie_Anne_Robinson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Julie_Anne_Robinson> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E1> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lady_Danbury
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lady_Danbury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lady_Danbury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Danbury> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lady_Danbury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lady_Danbury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lady_Danbury> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lady_Danbury> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lord_Featherington
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lord_Featherington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lord_Featherington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lord_Featherington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lord_Featherington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lord_Featherington> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Lord_Featherington> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Marina_Thompson> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Penelope_Featherington> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#queen> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Reina_Charlotte> <http://www.w3.org/2000/01/rdf-schema#label> "Queen Charlotte" .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporada 1 de la sèrie" .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheree_Folkson
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheree_Folkson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheree_Folkson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simon> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simone_Ashley
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simone_Ashley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simone_Ashley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simone_Ashley> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Simone_Ashley> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1995"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tom_Verica
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tom_Verica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tom_Verica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tom_Verica> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S1_E2> .
+# 
+# http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tricia_Brock
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tricia_Brock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tricia_Brock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
+<http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Tricia_Brock> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Episode_S2_E1> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1784"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> <http://www.w3.org/2000/01/rdf-schema#label> "Anthony Bridgerton" .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Austin
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Austin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Austin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Austin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dbpedia.org/ontology/Animal> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Austin> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1796"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> <http://www.w3.org/2000/01/rdf-schema#label> "Eloise" .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Jonathan_Bailey
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Jonathan_Bailey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Jonathan_Bailey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Jonathan_Bailey> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Jonathan_Bailey> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year> "1988"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edwina_Sharma> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Katherine_Sharma> <http://www.w3.org/2000/01/rdf-schema#label> "Kate" .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_1> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Season_2> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Edmund_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Benedict_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Colin_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Daphne_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Francesca_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Gregory_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Hyacinth_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Anthony_Bridgerton> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Violet> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Eloise_Bridgerton> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#bee
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#bee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#bee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dbpedia.org/ontology/Animal> .
+# 
+# http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dbpedia.org/ontology/Animal> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontologia creada per a descriure diferents elements de la sèrie Bridgerton" .
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Mònica Mañá" .
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#label> "Bridgerton" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid34 <http://www.w3.org/2003/11/swrl#body> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid36 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid34 <http://www.w3.org/2003/11/swrl#head> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid38 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid39 <http://www.w3.org/2003/11/swrl#body> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid41 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid39 <http://www.w3.org/2003/11/swrl#head> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid43 .
+_:genid43 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid43 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid44 <http://www.w3.org/2003/11/swrl#body> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid46 .
+_:genid46 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid46 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid44 <http://www.w3.org/2003/11/swrl#head> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#a> .
+_:genid48 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
