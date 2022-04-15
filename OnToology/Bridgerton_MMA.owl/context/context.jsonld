@@ -1,0 +1,202 @@
+{
+  "@context" : {
+    "birth_year" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#birth_year"
+    },
+    "aristocratic" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#aristocratic"
+    },
+    "dog" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog"
+    },
+    "is_mother_of" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_mother_of",
+      "@type" : "@id"
+    },
+    "homicide" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#homicide"
+    },
+    "viscount" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#viscount"
+    },
+    "brother" : {
+      "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#brother"
+    },
+    "part_of" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of",
+      "@type" : "@id"
+    },
+    "is_brother_of" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#is_brother_of",
+      "@type" : "@id"
+    },
+    "natural" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#natural"
+    },
+    "Sheffield" : {
+      "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#Sheffield"
+    },
+    "plays" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays",
+      "@type" : "@id"
+    },
+    "father" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#father",
+      "@type" : "@id"
+    },
+    "director" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Bridgerton" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Bridgerton"
+    },
+    "mother" : {
+      "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#mother"
+    },
+    "sister" : {
+      "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#sister"
+    },
+    "episode" : {
+      "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode"
+    },
+    "Animal" : {
+      "@id" : "https://dbpedia.org/ontology/Animal"
+    },
+    "in_love_with" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with",
+      "@type" : "@id"
+    },
+    "killed_by" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#killed_by",
+      "@type" : "@id"
+    },
+    "production_year" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#production_year"
+    },
+    "Basset" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Basset"
+    },
+    "male" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#male"
+    },
+    "death_year" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#death_year"
+    },
+    "queen" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#queen"
+    },
+    "married_in" : {
+      "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#married_in",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "character" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character"
+    },
+    "person" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#person"
+    },
+    "have" : {
+      "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#have",
+      "@type" : "@id"
+    },
+    "Featherington" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Featherington"
+    },
+    "horse" : {
+      "@id" : "https://dbpedia.org/ontology/Animal#horse"
+    },
+    "writer_of" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of",
+      "@type" : "@id"
+    },
+    "female" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#female"
+    },
+    "poor" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#poor"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "duke" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#duke"
+    },
+    "writer" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer"
+    },
+    "allergic_reaction" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#allergic_reaction"
+    },
+    "directed" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#title",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "family" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#family",
+      "@type" : "@id"
+    },
+    "money" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#money"
+    },
+    "appears_in" : {
+      "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#appears_in",
+      "@type" : "@id"
+    },
+    "Seasons" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons"
+    },
+    "horse_lover" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#horse_lover"
+    },
+    "has" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "dog_lover" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dog_lover"
+    },
+    "rich" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#rich"
+    },
+    "nobility_title" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#nobility_title"
+    },
+    "actor" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor"
+    },
+    "likes" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#likes",
+      "@type" : "@id"
+    },
+    "accidental" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#accidental"
+    },
+    "is_sister_of" : {
+      "@id" : "http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#is_sister_of",
+      "@type" : "@id"
+    },
+    "dead" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#dead"
+    },
+    "Danbury" : {
+      "@id" : "http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Danbury"
+    }
+  }
+}
