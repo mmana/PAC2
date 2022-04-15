@@ -37,7 +37,6 @@
 # http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
-<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#directed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#director> .
 # 
 # http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#family
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -53,7 +52,6 @@
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> <http://www.w3.org/2002/07/owl#equivalentProperty> _:genid1 .
 _:genid1 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> .
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> <http://www.w3.org/2000/01/rdf-schema#domain> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
-<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#has> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
 # 
 # http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#in_love_with> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -80,13 +78,11 @@ _:genid1 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/m
 # http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://mappings.dbpedia.org/index.php/OntologyProperty:DeathCause#episode> .
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#Seasons> .
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#part_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Descriu quins episodis formen part d'una temporada concreta" .
 # 
 # http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#actor> .
 <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#plays> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#character> .
 # 
 # http://www.semanticweb.org/monic/ontologies/2022/3/untitled-ontology-7#writer_of
